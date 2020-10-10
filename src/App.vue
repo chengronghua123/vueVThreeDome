@@ -3,6 +3,7 @@
     {{count}}
     <button @click="add">增加</button>
   </div>
+  <router-view/>
 </template>
 
 <script>
